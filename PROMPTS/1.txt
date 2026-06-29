@@ -1,0 +1,47 @@
+Today we're building a flutter dart application.
+
+I have uploaded images to show the App Flow and how the home screen show look. We're building the Project 2: The MeatGuard Application using flutter. The name of the flutter project is "meatguard".
+
+
+
+Kindly great the splash screen (splash.dart), Onboarding/loading screen (loading.dart), login screen (login.dart), and home screen (main.dart).
+
+
+
+We would be using Firebase OAuth for the login. Below is the login Firebase script:
+
+
+
+
+
+import 'package:firebase_core/firebase_core.dart';
+
+import 'firebase_options.dart';
+
+
+
+// ...
+
+
+
+await Firebase.initializeApp(
+
+    options: DefaultFirebaseOptions.currentPlatform,
+
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alright let's forget about the firebase script stuff.
+Just generate the login.dart and with comments, guide me to implement all other necessary stuff.
